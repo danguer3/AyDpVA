@@ -1,0 +1,34 @@
+[2.635s] Invoking command in '/home/frock/code/AyDpVA/ros2_ws/src/autonomo': PYTHONPATH=/home/frock/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/frock/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data
+[3.326s] running egg_info
+[3.327s] creating ../../build/autonomo/autonomo.egg-info
+[3.383s] writing ../../build/autonomo/autonomo.egg-info/PKG-INFO
+[3.383s] writing dependency_links to ../../build/autonomo/autonomo.egg-info/dependency_links.txt
+[3.384s] writing entry points to ../../build/autonomo/autonomo.egg-info/entry_points.txt
+[3.385s] writing requirements to ../../build/autonomo/autonomo.egg-info/requires.txt
+[3.385s] writing top-level names to ../../build/autonomo/autonomo.egg-info/top_level.txt
+[3.385s] writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.498s] reading manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.500s] writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.500s] running build
+[3.500s] running build_py
+[3.501s] creating /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build
+[3.502s] creating /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build/lib
+[3.502s] creating /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.502s] copying autonomo/__init__.py -> /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.503s] running install
+[3.517s] running install_lib
+[3.574s] creating /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.575s] copying /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/__init__.py -> /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.576s] byte-compiling /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__init__.py to __init__.cpython-312.pyc
+[3.577s] running install_data
+[3.577s] creating /home/frock/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index
+[3.578s] creating /home/frock/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index/resource_index
+[3.578s] creating /home/frock/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index/resource_index/packages
+[3.579s] copying resource/autonomo -> /home/frock/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index/resource_index/packages
+[3.579s] copying package.xml -> /home/frock/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo
+[3.579s] running install_egg_info
+[3.638s] Copying ../../build/autonomo/autonomo.egg-info to /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info
+[3.640s] running install_scripts
+[3.997s] Installing publisher script to /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.997s] writing list of installed files to '/home/frock/code/AyDpVA/ros2_ws/build/autonomo/install.log'
+[4.054s] Invoked command in '/home/frock/code/AyDpVA/ros2_ws/src/autonomo' returned '0': PYTHONPATH=/home/frock/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/frock/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data

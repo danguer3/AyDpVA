@@ -1,0 +1,27 @@
+[2.040s] Invoking command in '/home/frock/code/AyDpVA/ros2_ws/src/autonomo': PYTHONPATH=/home/frock/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/frock/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data
+[2.717s] running egg_info
+[2.771s] writing ../../build/autonomo/autonomo.egg-info/PKG-INFO
+[2.772s] writing dependency_links to ../../build/autonomo/autonomo.egg-info/dependency_links.txt
+[2.773s] writing entry points to ../../build/autonomo/autonomo.egg-info/entry_points.txt
+[2.773s] writing requirements to ../../build/autonomo/autonomo.egg-info/requires.txt
+[2.774s] writing top-level names to ../../build/autonomo/autonomo.egg-info/top_level.txt
+[2.886s] reading manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[2.888s] writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[2.888s] running build
+[2.889s] running build_py
+[2.889s] running install
+[2.904s] running install_lib
+[2.961s] byte-compiling /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py to publisher.cpython-312.pyc
+[2.962s]   File "/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py", line 2
+[2.962s]     from std msgs.msg import String
+[2.962s]              ^^^^
+[2.962s] SyntaxError: invalid syntax
+[2.963s] 
+[2.963s] running install_data
+[2.963s] running install_egg_info
+[3.020s] removing '/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info' (and everything under it)
+[3.021s] Copying ../../build/autonomo/autonomo.egg-info to /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info
+[3.024s] running install_scripts
+[3.375s] Installing publisher script to /home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.376s] writing list of installed files to '/home/frock/code/AyDpVA/ros2_ws/build/autonomo/install.log'
+[3.432s] Invoked command in '/home/frock/code/AyDpVA/ros2_ws/src/autonomo' returned '0': PYTHONPATH=/home/frock/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/frock/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/frock/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/frock/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py", line 39
+    if__name__=='__main__': # type: ignore
+                          ^
+SyntaxError: invalid syntax
+
