@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/autonomo/autonomo.egg-info/PKG-INFO
+writing dependency_links to ../../build/autonomo/autonomo.egg-info/dependency_links.txt
+writing entry points to ../../build/autonomo/autonomo.egg-info/entry_points.txt
+writing requirements to ../../build/autonomo/autonomo.egg-info/requires.txt
+writing top-level names to ../../build/autonomo/autonomo.egg-info/top_level.txt
+reading manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying autonomo/publisher.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+running install
+running install_lib
+copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/publisher.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py to publisher.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/autonomo/autonomo.egg-info to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+writing list of installed files to '/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log'

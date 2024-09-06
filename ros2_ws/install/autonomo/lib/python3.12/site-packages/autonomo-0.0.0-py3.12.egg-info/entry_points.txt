@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = autonomo.publisher:main
+subscriber = autonomo.susbcriber:main
