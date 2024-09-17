@@ -1,0 +1,27 @@
+[2.879s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo': PYTHONPATH=/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data
+[3.405s] running egg_info
+[3.445s] writing ../../build/autonomo/autonomo.egg-info/PKG-INFO
+[3.446s] writing dependency_links to ../../build/autonomo/autonomo.egg-info/dependency_links.txt
+[3.447s] writing entry points to ../../build/autonomo/autonomo.egg-info/entry_points.txt
+[3.447s] writing requirements to ../../build/autonomo/autonomo.egg-info/requires.txt
+[3.447s] writing top-level names to ../../build/autonomo/autonomo.egg-info/top_level.txt
+[3.532s] reading manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.535s] writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.535s] running build
+[3.536s] running build_py
+[3.536s] copying autonomo/suscriber1.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.538s] running install
+[3.548s] running install_lib
+[3.588s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/suscriber1.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.590s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/suscriber1.py to suscriber1.cpython-312.pyc
+[3.594s] running install_data
+[3.595s] running install_egg_info
+[3.636s] removing '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info' (and everything under it)
+[3.641s] Copying ../../build/autonomo/autonomo.egg-info to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info
+[3.644s] running install_scripts
+[3.917s] Installing publisher script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.921s] Installing publisher1 script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.922s] Installing subscriber script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.922s] Installing subscriber1 script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.924s] writing list of installed files to '/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log'
+[3.984s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo' returned '0': PYTHONPATH=/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data

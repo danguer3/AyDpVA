@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher = autonomo.publisher:main',
-            'subscriber = autonomo.susbcriber:main'
+            'subscriber = autonomo.subscriber:main',
+            'publisher1 = autonomo.publisher1:main',
+            'subscriber1 = autonomo.subscriber1:main'
         ],
     },
 )
