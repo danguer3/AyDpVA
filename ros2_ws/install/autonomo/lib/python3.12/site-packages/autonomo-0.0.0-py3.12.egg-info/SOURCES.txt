@@ -9,8 +9,13 @@ setup.py
 ../../build/autonomo/autonomo.egg-info/top_level.txt
 ../../build/autonomo/autonomo.egg-info/zip-safe
 autonomo/__init__.py
+autonomo/led.py
 autonomo/publisher.py
+autonomo/publisheralarm.py
+autonomo/publisherveh.py
 autonomo/subscriber.py
+autonomo/subscriberveh.py
+autonomo/susbcriberalarm.py
 resource/autonomo
 test/test_copyright.py
 test/test_flake8.py

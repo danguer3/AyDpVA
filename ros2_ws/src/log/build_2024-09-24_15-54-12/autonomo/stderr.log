@@ -1,0 +1,5 @@
+  File "/home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo/subscriberveh.py", line 5
+    def speed_callback(speed.data):
+                            ^
+SyntaxError: invalid syntax
+

@@ -3,14 +3,14 @@ from std_msgs.msg import String
 from time import sleep
 
 def callback(msg):
-    #funcion del callback que se llama cuando tenga un mensaje
+    #funcion del callback que se llama callback cuando tenga un mensaje
     print(f'Reiceved message: "{msg.data}"')
 
 def main (args=None):
     #Inicializa ROS2
     rclpy.init(args=args)  
 
-    #crea un nodo (Aqui usamos 'minila_subscriber' como nombre del nodo)
+    #crea un nodo (Aqui usamos 'minimal_subscriber' como nombre del nodo)
     node= rclpy.create_node('minimal_subscriber')
 
     #crea un suscriptor para mensajes del tipo String en el topico 'topic'

@@ -1,0 +1,32 @@
+[1.932s] Invoking command in '/home/emmanuel13/code/AyDpVA/ros2_ws/src/autonomo': PYTHONPATH=/home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/autonomo build --build-base /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/build install --record /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/install.log --single-version-externally-managed install_data
+[2.479s] running egg_info
+[2.524s] writing ../build/autonomo/autonomo.egg-info/PKG-INFO
+[2.524s] writing dependency_links to ../build/autonomo/autonomo.egg-info/dependency_links.txt
+[2.529s] writing entry points to ../build/autonomo/autonomo.egg-info/entry_points.txt
+[2.531s] writing requirements to ../build/autonomo/autonomo.egg-info/requires.txt
+[2.531s] writing top-level names to ../build/autonomo/autonomo.egg-info/top_level.txt
+[2.612s] reading manifest file '../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[2.614s] writing manifest file '../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[2.614s] running build
+[2.615s] running build_py
+[2.616s] copying autonomo/publisherveh.py -> /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/build/lib/autonomo
+[2.617s] copying autonomo/subscriberveh.py -> /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/build/lib/autonomo
+[2.618s] running install
+[2.631s] running install_lib
+[2.670s] copying /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/build/lib/autonomo/publisherveh.py -> /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo
+[2.670s] copying /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/build/lib/autonomo/subscriberveh.py -> /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo
+[2.671s] byte-compiling /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo/publisherveh.py to publisherveh.cpython-312.pyc
+[2.673s] byte-compiling /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo/subscriberveh.py to subscriberveh.cpython-312.pyc
+[2.675s] running install_data
+[2.675s] running install_egg_info
+[2.719s] removing '/home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info' (and everything under it)
+[2.719s] Copying ../build/autonomo/autonomo.egg-info to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info
+[2.723s] running install_scripts
+[3.003s] Installing publisher script to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/autonomo
+[3.004s] Installing publisheralarm script to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/autonomo
+[3.004s] Installing publisherveh script to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/autonomo
+[3.005s] Installing subscriber script to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/autonomo
+[3.005s] Installing subscriberveh script to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/autonomo
+[3.005s] Installing susbcriberalarm script to /home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/autonomo
+[3.006s] writing list of installed files to '/home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/install.log'
+[3.111s] Invoked command in '/home/emmanuel13/code/AyDpVA/ros2_ws/src/autonomo' returned '0': PYTHONPATH=/home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emmanuel13/code/AyDpVA/ros2_ws/src/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/autonomo build --build-base /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/build install --record /home/emmanuel13/code/AyDpVA/ros2_ws/src/build/autonomo/install.log --single-version-externally-managed install_data

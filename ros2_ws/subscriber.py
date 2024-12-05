@@ -6,7 +6,7 @@ def callback(msg):
     #funcion del callback que se llama cuando tenga un mensaje
     print(f'Reiceved message: "{msg.data}"')
 
-def main (args=None):
+def main (args=None): 
     #Inicializa ROS2
     rclpy.init(args=args)  
 

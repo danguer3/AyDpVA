@@ -21,8 +21,11 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher = autonomo.publisher:main',
-            'subscriber = autonomo.subscriber:main'
-
+            'subscriber = autonomo.subscriber:main',
+            'publisherveh = autonomo.publisherveh:main',
+            'subscriberveh =autonomo.subscriberveh:main',
+            'publisheralarm =autonomo.publisheralarm:main',
+            'susbcriberalarm =autonomo.publisheralarm:main'
 
         ],
     },

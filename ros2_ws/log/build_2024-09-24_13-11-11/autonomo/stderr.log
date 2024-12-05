@@ -1,0 +1,5 @@
+  File "/home/emmanuel13/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisherveh.py", line 3
+    import rclpy.node import node
+                      ^^^^^^
+SyntaxError: invalid syntax
+
