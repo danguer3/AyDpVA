@@ -1,0 +1,32 @@
+[0.042s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake /home/ezechiel/code/AyDpVA/ros2_ws/src/alarma -DCMAKE_INSTALL_PREFIX=/home/ezechiel/code/AyDpVA/ros2_ws/src/install/alarma
+[0.667s] -- The C compiler identification is GNU 13.2.0
+[1.544s] -- The CXX compiler identification is GNU 13.2.0
+[2.073s] -- Detecting C compiler ABI info
+[2.426s] -- Detecting C compiler ABI info - done
+[2.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.446s] -- Detecting C compile features
+[2.447s] -- Detecting C compile features - done
+[2.529s] -- Detecting CXX compiler ABI info
+[2.808s] -- Detecting CXX compiler ABI info - done
+[2.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.827s] -- Detecting CXX compile features
+[2.828s] -- Detecting CXX compile features - done
+[2.851s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[3.102s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.301s] -- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[4.392s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[4.428s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[4.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.820s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[4.831s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[5.041s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.243s] -- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+[5.357s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.631s] -- Found std_msgs: 5.4.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[5.671s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[5.865s] -- Added test 'lint_cmake' to check CMake code style
+[5.868s] -- Added test 'xmllint' to check XML markup files
+[5.872s] -- Configuring done (5.7s)
+[5.885s] -- Generating done (0.0s)
+[5.889s] -- Build files have been written to: /home/ezechiel/code/AyDpVA/ros2_ws/src/build/alarma

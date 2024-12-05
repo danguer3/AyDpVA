@@ -1,0 +1,15 @@
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/package_run_dependencies/alarma
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/parent_prefix_path/alarma
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/ament_prefix_path.sh
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/ament_prefix_path.dsv
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/path.sh
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/path.dsv
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.bash
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.sh
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.zsh
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.dsv
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.dsv
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/packages/alarma
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/cmake/alarmaConfig.cmake
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/cmake/alarmaConfig-version.cmake
+/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.xml

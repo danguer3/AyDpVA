@@ -1,0 +1,4 @@
+source;share/alarma/local_setup.bash
+source;share/alarma/local_setup.dsv
+source;share/alarma/local_setup.sh
+source;share/alarma/local_setup.zsh

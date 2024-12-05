@@ -13,8 +13,10 @@ autonomo/led.py
 autonomo/led_secuencia.py
 autonomo/publisher.py
 autonomo/publisher1.py
+autonomo/publisher_alarma.py
 autonomo/subscriber.py
 autonomo/subscriber1.py
+autonomo/subscriber_alarma.py
 resource/autonomo
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,9 @@
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/uninstall.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/alarma_uninstall.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/test.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/edit_cache.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/rebuild_cache.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/list_install_components.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/install.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/install/local.dir
+/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma/CMakeFiles/install/strip.dir

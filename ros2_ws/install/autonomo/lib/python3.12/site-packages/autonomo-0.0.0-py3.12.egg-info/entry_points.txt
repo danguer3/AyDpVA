@@ -1,5 +1,7 @@
 [console_scripts]
 publisher = autonomo.publisher:main
 publisher1 = autonomo.publisher1:main
+publisher_alarma = autonomo.publisher_alarma:main
 subscriber = autonomo.subscriber:main
 subscriber1 = autonomo.subscriber1:main
+subscriber_alarma = autonomo.publisher_alarma:main

@@ -1,0 +1,53 @@
+[0.054s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake /home/ezechiel/code/AyDpVA/ros2_ws/src/alarma -DCMAKE_INSTALL_PREFIX=/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma
+[0.823s] -- The C compiler identification is GNU 13.2.0
+[1.725s] -- The CXX compiler identification is GNU 13.2.0
+[2.270s] -- Detecting C compiler ABI info
+[2.678s] -- Detecting C compiler ABI info - done
+[2.703s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.705s] -- Detecting C compile features
+[2.707s] -- Detecting C compile features - done
+[2.810s] -- Detecting CXX compiler ABI info
+[3.138s] -- Detecting CXX compiler ABI info - done
+[3.161s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.162s] -- Detecting CXX compile features
+[3.163s] -- Detecting CXX compile features - done
+[3.184s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[3.514s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.744s] -- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[4.670s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[4.701s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[4.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.944s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[4.950s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[5.088s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.261s] -- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+[5.388s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.646s] -- Found std_msgs: 5.4.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[5.679s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[5.874s] -- Added test 'lint_cmake' to check CMake code style
+[5.878s] -- Added test 'xmllint' to check XML markup files
+[5.883s] -- Configuring done (5.6s)
+[5.894s] -- Generating done (0.0s)
+[5.897s] -- Build files have been written to: /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma
+[5.922s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake /home/ezechiel/code/AyDpVA/ros2_ws/src/alarma -DCMAKE_INSTALL_PREFIX=/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma
+[5.925s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+[5.984s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+[6.030s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma
+[6.041s] -- Install configuration: ""
+[6.042s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/package_run_dependencies/alarma
+[6.043s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/parent_prefix_path/alarma
+[6.044s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/ament_prefix_path.sh
+[6.044s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/ament_prefix_path.dsv
+[6.045s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/path.sh
+[6.045s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/path.dsv
+[6.045s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.bash
+[6.046s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.sh
+[6.046s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.zsh
+[6.047s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.dsv
+[6.047s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.dsv
+[6.047s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/packages/alarma
+[6.048s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/cmake/alarmaConfig.cmake
+[6.048s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/cmake/alarmaConfig-version.cmake
+[6.049s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.xml
+[6.053s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma

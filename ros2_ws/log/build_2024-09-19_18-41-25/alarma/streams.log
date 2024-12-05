@@ -1,0 +1,20 @@
+[0.039s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+[0.477s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+[0.534s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma
+[0.553s] -- Install configuration: ""
+[0.555s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/package_run_dependencies/alarma
+[0.556s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/parent_prefix_path/alarma
+[0.557s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/ament_prefix_path.sh
+[0.558s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/ament_prefix_path.dsv
+[0.558s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/path.sh
+[0.559s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/environment/path.dsv
+[0.559s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.bash
+[0.560s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.sh
+[0.560s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.zsh
+[0.560s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/local_setup.dsv
+[0.561s] -- Installing: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.dsv
+[0.562s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/ament_index/resource_index/packages/alarma
+[0.563s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/cmake/alarmaConfig.cmake
+[0.564s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/cmake/alarmaConfig-version.cmake
+[0.564s] -- Up-to-date: /home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.xml
+[0.567s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma

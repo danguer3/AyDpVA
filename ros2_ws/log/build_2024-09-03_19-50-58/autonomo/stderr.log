@@ -1,5 +1,0 @@
-  File "/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py", line 11
-    publisher = node.create_publisher(String, 'topic' 10)
-                                              ^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-

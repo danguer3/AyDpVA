@@ -1,0 +1,57 @@
+[2.553s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo': PYTHONPATH=/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data
+[3.270s] running egg_info
+[3.271s] creating ../../build/autonomo/autonomo.egg-info
+[3.318s] writing ../../build/autonomo/autonomo.egg-info/PKG-INFO
+[3.318s] writing dependency_links to ../../build/autonomo/autonomo.egg-info/dependency_links.txt
+[3.319s] writing entry points to ../../build/autonomo/autonomo.egg-info/entry_points.txt
+[3.320s] writing requirements to ../../build/autonomo/autonomo.egg-info/requires.txt
+[3.320s] writing top-level names to ../../build/autonomo/autonomo.egg-info/top_level.txt
+[3.320s] writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.427s] reading manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.428s] writing manifest file '../../build/autonomo/autonomo.egg-info/SOURCES.txt'
+[3.429s] running build
+[3.429s] running build_py
+[3.430s] creating /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build
+[3.430s] creating /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib
+[3.431s] creating /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.431s] copying autonomo/led_secuencia.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.432s] copying autonomo/subscriber1.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.433s] copying autonomo/subscriber.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.434s] copying autonomo/publisher1.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.436s] copying autonomo/__init__.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.437s] copying autonomo/publisher.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.438s] copying autonomo/led.py -> /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo
+[3.439s] running install
+[3.457s] running install_lib
+[3.506s] creating /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.507s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/led_secuencia.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.507s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/subscriber1.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.508s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/subscriber.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.508s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/publisher1.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.509s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/__init__.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.509s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/publisher.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.509s] copying /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build/lib/autonomo/led.py -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo
+[3.510s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/led_secuencia.py to led_secuencia.cpython-312.pyc
+[3.512s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/subscriber1.py to subscriber1.cpython-312.pyc
+[3.513s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/subscriber.py to subscriber.cpython-312.pyc
+[3.514s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher1.py to publisher1.cpython-312.pyc
+[3.516s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__init__.py to __init__.cpython-312.pyc
+[3.516s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py to publisher.cpython-312.pyc
+[3.518s] byte-compiling /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/led.py to led.cpython-312.pyc
+[3.519s] running install_data
+[3.519s] creating /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index
+[3.519s] creating /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index/resource_index
+[3.520s] creating /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index/resource_index/packages
+[3.520s] copying resource/autonomo -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/ament_index/resource_index/packages
+[3.521s] copying package.xml -> /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo
+[3.521s] running install_egg_info
+[3.572s] Copying ../../build/autonomo/autonomo.egg-info to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info
+[3.577s] running install_scripts
+[3.893s] Installing publisher script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.895s] Installing publisher1 script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.895s] Installing publisher_alarma script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.895s] Installing subscriber script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.896s] Installing subscriber1 script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.896s] Installing subscriber_alarma script to /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo
+[3.897s] writing list of installed files to '/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log'
+[3.959s] Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo' returned '0': PYTHONPATH=/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data

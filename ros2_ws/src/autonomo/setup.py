@@ -23,7 +23,9 @@ setup(
             'publisher = autonomo.publisher:main',
             'subscriber = autonomo.subscriber:main',
             'publisher1 = autonomo.publisher1:main',
-            'subscriber1 = autonomo.subscriber1:main'
+            'subscriber1 = autonomo.subscriber1:main',
+            'publisher_alarma = autonomo.publisher_alarma:main',
+            'subscriber_alarma = autonomo.publisher_alarma:main'
         ],
     },
 )

@@ -1,0 +1,1 @@
+Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake /home/ezechiel/code/AyDpVA/ros2_ws/src/alarma -DCMAKE_INSTALL_PREFIX=/home/ezechiel/code/AyDpVA/ros2_ws/src/install/alarma

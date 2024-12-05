@@ -1,6 +1,8 @@
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/led_secuencia.py
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/subscriber1.py
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/subscriber.py
+/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/subscriber_alarma.py
+/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher_alarma.py
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher1.py
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__init__.py
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/publisher.py
@@ -8,6 +10,8 @@
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/led_secuencia.cpython-312.pyc
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/subscriber1.cpython-312.pyc
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/subscriber.cpython-312.pyc
+/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/subscriber_alarma.cpython-312.pyc
+/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/publisher_alarma.cpython-312.pyc
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/publisher1.cpython-312.pyc
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/__init__.cpython-312.pyc
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo/__pycache__/publisher.cpython-312.pyc
@@ -23,5 +27,7 @@
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages/autonomo-0.0.0-py3.12.egg-info/requires.txt
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo/publisher
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo/publisher1
+/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo/publisher_alarma
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo/subscriber
 /home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo/subscriber1
+/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/autonomo/subscriber_alarma

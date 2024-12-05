@@ -1,0 +1,1 @@
+[0.055s] Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/src/build/alarma -- -j4 -l4

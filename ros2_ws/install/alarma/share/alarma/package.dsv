@@ -1,0 +1,8 @@
+source;share/alarma/hook/cmake_prefix_path.ps1
+source;share/alarma/hook/cmake_prefix_path.dsv
+source;share/alarma/hook/cmake_prefix_path.sh
+source;share/alarma/local_setup.bash
+source;share/alarma/local_setup.dsv
+source;share/alarma/local_setup.ps1
+source;share/alarma/local_setup.sh
+source;share/alarma/local_setup.zsh

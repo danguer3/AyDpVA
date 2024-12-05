@@ -1,0 +1,4 @@
+Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma
+Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma

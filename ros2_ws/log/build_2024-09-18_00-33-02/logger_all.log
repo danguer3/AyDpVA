@@ -1,0 +1,202 @@
+[0.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd38d0ceb10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd38d22ce90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd38d22ce90>>, mixin_verb=('build',))
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.326s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ezechiel/code/AyDpVA/ros2_ws'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/alarma) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/alarma' with type 'ros.ament_cmake' and name 'alarma'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomo) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomo' with type 'ros.ament_python' and name 'autonomo'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ezechiel/code/AyDpVA/ros2_ws/install
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ezechiel/code/AyDpVA/ros2_ws/src/install
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo/autonomo/install
+[0.418s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/rolling
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'alarma' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'alarma' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma', 'merge_install': False, 'path': '/home/ezechiel/code/AyDpVA/ros2_ws/src/alarma', 'symlink_install': False, 'test_result_base': None}
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'autonomo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'autonomo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo', 'merge_install': False, 'path': '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo', 'symlink_install': False, 'test_result_base': None}
+[0.505s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ezechiel/code/AyDpVA/ros2_ws/src/alarma' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ezechiel/code/AyDpVA/ros2_ws/src/alarma'
+[0.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.519s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo' with build type 'ament_python'
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomo', 'ament_prefix_path')
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/hook/ament_prefix_path.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/hook/ament_prefix_path.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/hook/ament_prefix_path.sh'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+[1.004s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo'
+[1.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --build /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma -- -j4 -l4
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma
+[1.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alarma)
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/build/alarma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo:/opt/ros/rolling /usr/bin/cmake --install /home/ezechiel/code/AyDpVA/ros2_ws/build/alarma
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma' for CMake module files
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma' for CMake config files
+[1.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('alarma', 'cmake_prefix_path')
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/hook/cmake_prefix_path.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/hook/cmake_prefix_path.dsv'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/hook/cmake_prefix_path.sh'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/bin'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/lib/pkgconfig/alarma.pc'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/lib/python3.12/site-packages'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/bin'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.sh'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.bash'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.zsh'
+[1.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/colcon-core/packages/alarma)
+[1.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(alarma)
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma' for CMake config files
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('alarma', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/hook/cmake_prefix_path.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/hook/cmake_prefix_path.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/lib/pkgconfig/alarma.pc'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/lib/python3.12/site-packages'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/bin'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.sh'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/alarma/package.zsh'
+[1.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ezechiel/code/AyDpVA/ros2_ws/install/alarma/share/colcon-core/packages/alarma)
+[2.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo': PYTHONPATH=/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo' for CMake module files
+[3.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ezechiel/code/AyDpVA/ros2_ws/src/autonomo' returned '0': PYTHONPATH=/home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autonomo build --build-base /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/build install --record /home/ezechiel/code/AyDpVA/ros2_ws/build/autonomo/install.log --single-version-externally-managed install_data
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo' for CMake config files
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/bin'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/pkgconfig/autonomo.pc'
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/lib/python3.12/site-packages'
+[3.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomo', 'pythonpath')
+[3.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/hook/pythonpath.ps1'
+[3.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/hook/pythonpath.dsv'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/hook/pythonpath.sh'
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/bin'
+[3.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomo)
+[3.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/package.ps1'
+[3.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/package.dsv'
+[3.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/package.sh'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/package.bash'
+[3.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/autonomo/package.zsh'
+[3.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ezechiel/code/AyDpVA/ros2_ws/install/autonomo/share/colcon-core/packages/autonomo)
+[3.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.734s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.777s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.777s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1002/bus: No such file or directory
+[3.778s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.778s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ezechiel/code/AyDpVA/ros2_ws/install/local_setup.ps1'
+[3.779s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ezechiel/code/AyDpVA/ros2_ws/install/_local_setup_util_ps1.py'
+[3.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ezechiel/code/AyDpVA/ros2_ws/install/setup.ps1'
+[3.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ezechiel/code/AyDpVA/ros2_ws/install/local_setup.sh'
+[3.784s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ezechiel/code/AyDpVA/ros2_ws/install/_local_setup_util_sh.py'
+[3.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ezechiel/code/AyDpVA/ros2_ws/install/setup.sh'
+[3.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ezechiel/code/AyDpVA/ros2_ws/install/local_setup.bash'
+[3.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ezechiel/code/AyDpVA/ros2_ws/install/setup.bash'
+[3.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ezechiel/code/AyDpVA/ros2_ws/install/local_setup.zsh'
+[3.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ezechiel/code/AyDpVA/ros2_ws/install/setup.zsh'
